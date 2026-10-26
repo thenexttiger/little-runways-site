@@ -1,0 +1,4 @@
+:root{--ink:#1F2A3A;--paper:#FFFDF7;--coral:#FF6B5B;--sea:#2E8FB8;--lagoon:#6FD3D6}
+*{box-sizing:border-box}body{margin:0;font-family:ui-rounded,"SF Pro Rounded",-apple-system,system-ui,sans-serif;color:var(--ink);background:linear-gradient(160deg,var(--lagoon),var(--sea));min-height:100vh}
+main{max-width:720px;margin:0 auto;padding:40px 16px 64px}.card{background:var(--paper);border-radius:24px;padding:28px 24px;box-shadow:0 12px 30px rgba(31,42,58,.18)}
+h1{margin:0 0 4px;font-size:34px}h1 span{color:var(--coral)}h2{margin-top:28px;font-size:20px}p,li{line-height:1.55;font-size:16px}a{color:var(--sea)}small{opacity:.65}
