@@ -1,33 +1,122 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Little Runways</title>
-<meta name="description" content="Little Runways: a calm, hand-drawn air traffic control game for iPhone and iPad. Draw a path, land the plane.">
-<meta property="og:title" content="Little Runways"><meta property="og:description" content="Draw a path. Land the plane. A cosy air traffic control game for iPhone and iPad.">
-<meta property="og:image" content="https://little-runways.com/img/shot-1.jpg">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Little Runways · Air traffic control for iPhone and iPad</title>
+<meta name="description" content="Draw a path, land the plane. Little Runways is a calm, hand-crafted air traffic control game for iPhone and iPad, with nine miniature airports.">
+<meta property="og:title" content="Little Runways">
+<meta property="og:description" content="Draw a path. Land the plane. A hand-crafted air traffic control game for iPhone and iPad.">
+<meta property="og:image" content="https://little-runways.com/img/1-pebble.jpg">
+<meta name="theme-color" content="#0E2A3B">
 <link rel="icon" href="img/icon.png"><link rel="apple-touch-icon" href="img/icon.png">
-<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="home.css"></head>
-<body class="home">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="#"><img src="img/icon.png" alt="" width="32" height="32"><span>Little Runways</span></a>
+  <a class="nav-cta" href="#get">Get the game</a>
+</nav>
+
 <header class="hero">
-  <img class="icon" src="img/icon.png" alt="" width="96" height="96">
-  <h1>Little <span>Runways</span></h1>
-  <p class="tag">Draw a path. Land the plane.</p>
-  <p class="lede">A calm, hand-drawn air traffic control game for iPhone and iPad. Guide tiny planes home across nine miniature airports, from sunrise to runway lights.</p>
-  <a class="store" href="#" aria-disabled="true">Coming soon to the App Store</a>
-  <ul class="chips"><li>Free to start</li><li>No ads</li><li>No tracking</li><li>Plays offline</li></ul>
+  <div class="hero-copy">
+    <p class="eyebrow">Air traffic control for iPhone &amp; iPad</p>
+    <h1>Draw a path.<br><em>Land the plane.</em></h1>
+    <p class="lede">Touch a plane, sketch a line to the runway, and watch it bank home over a turquoise lagoon. Easy to pick up in seconds, deep enough to master for months.</p>
+    <div class="cta-row">
+      <a class="store" id="get" href="#" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.3.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.8-1-2.8-4.2zM13.9 5.2c.7-.8 1.2-2 1-3.2-1 0-2.3.7-3 1.5-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.4z"/></svg><span><small>Coming soon to the</small>App Store</span></a>
+      <p class="price">Free to play · Full game $3.99, once</p>
+    </div>
+  </div>
+  <figure class="hero-shot device">
+    <img src="img/1-pebble.jpg" alt="Planes following drawn paths to the runway at Pebble Cay" width="1800" height="907">
+  </figure>
 </header>
-<main class="wide">
-  <section class="shots" aria-label="Screenshots">
-    <figure><img src="img/shot-1.jpg" alt="Drawing a path to the runway at Pebble Cay" loading="lazy"><figcaption>Just draw. We'll line it up.</figcaption></figure>
-    <figure><img src="img/shot-2.jpg" alt="Busy traffic with a storm" loading="lazy"><figcaption>Maydays, storms, fires and rush hours</figcaption></figure>
-    <figure><img src="img/shot-3.jpg" alt="Harbour City at night" loading="lazy"><figcaption>Every shift runs into the night</figcaption></figure>
-    <figure><img src="img/shot-4.jpg" alt="A mountain airport" loading="lazy"><figcaption>Nine hand-made airports</figcaption></figure>
-  </section>
-  <section class="features">
-    <div class="card"><h2>Draw, don't micromanage</h2><p>Sketch a line and the plane flies exactly what you drew. Lines can cross; the game only warns you about real conflicts.</p></div>
-    <div class="card"><h2>Easy to start, deep to master</h2><p>Light aircraft to heavies and helicopters, crossing runways, wind shifts, Mayday emergencies and rare visitors for your Spotter's book.</p></div>
-    <div class="card"><h2>Play your way</h2><p>An 18-shift Logbook, 24 puzzles, Endless, a Daily Flight, a Weekly Challenge, and Relaxed mode where you can't lose.</p></div>
-    <div class="card"><h2>Fair price, no tricks</h2><p>Three airports and every mode free. One purchase unlocks everything, forever. No ads, no tracking, no energy timers.</p></div>
-  </section>
-</main>
-<footer><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:support@little-runways.com">support@little-runways.com</a><br><small>© 2026 KJC International Limited</small></footer>
-</body></html>
+
+<section class="steps">
+  <div class="step"><span>1</span><h3>Touch a plane</h3><p>Arrivals drift in from the edges, each with its own speed and turning circle.</p></div>
+  <div class="step"><span>2</span><h3>Draw to the runway</h3><p>Your rough line becomes a smooth approach. The plane flies exactly what you see.</p></div>
+  <div class="step"><span>3</span><h3>Keep the sky flowing</h3><p>Sequence landings, release departures into the gaps, and never let two planes meet.</p></div>
+</section>
+
+<section class="feature">
+  <figure class="device"><img src="img/7-metro.jpg" alt="A busy three-runway airport with many planes on drawn paths" loading="lazy" width="1800" height="907"></figure>
+  <div class="feature-copy">
+    <p class="eyebrow">The heart of it</p>
+    <h2>Calm on the surface. Clever underneath.</h2>
+    <p>Lines can cross. The game predicts where every plane will be and only warns you about real conflicts, so you plan ahead instead of panicking.</p>
+    <ul class="ticks">
+      <li>Climb a plane to 5 or 7 thousand feet to pass safely over another</li>
+      <li>Slow one down or send it into a hold while the runway clears</li>
+      <li>Light aircraft, jets, heavies and helicopters, each landing where they fit</li>
+    </ul>
+  </div>
+</section>
+
+<section class="feature flip">
+  <figure class="device"><img src="img/2-harbour-night.jpg" alt="Harbour City at night with runway lights and landing planes" loading="lazy" width="1800" height="907"></figure>
+  <div class="feature-copy">
+    <p class="eyebrow">Every shift is a little day</p>
+    <h2>From sunrise to runway lights.</h2>
+    <p>Each session runs from morning into night. Traffic builds in waves, the wind shifts which way you land, storms drift across the map and the occasional Mayday heads straight for the runway.</p>
+  </div>
+</section>
+
+<section class="airports">
+  <div class="section-head">
+    <p class="eyebrow">Nine hand-made airports</p>
+    <h2>Each one plays differently.</h2>
+    <p>Crossing runways, a one-way mountain strip, two airports sharing one sky, a three-runway hub. Learn each map and your plans change.</p>
+  </div>
+  <div class="rail" tabindex="0" aria-label="Airports">
+    <figure><img src="img/3-saffron.jpg" alt="Saffron Bay" loading="lazy"><figcaption>Saffron Bay</figcaption></figure>
+    <figure><img src="img/4-edelweiss.jpg" alt="Edelweiss" loading="lazy"><figcaption>Edelweiss</figcaption></figure>
+    <figure><img src="img/5-twinbays.jpg" alt="Twin Bays" loading="lazy"><figcaption>Twin Bays</figcaption></figure>
+    <figure><img src="img/6-kestrel-dusk.jpg" alt="Kestrel Lakes at dusk" loading="lazy"><figcaption>Kestrel Lakes</figcaption></figure>
+    <figure><img src="img/8-summit.jpg" alt="Summit" loading="lazy"><figcaption>Summit</figcaption></figure>
+  </div>
+</section>
+
+<section class="modes">
+  <div class="section-head">
+    <p class="eyebrow">Play your way</p>
+    <h2>Five minutes or a whole evening.</h2>
+  </div>
+  <div class="grid">
+    <article><h3>Logbook</h3><p>18 hand-built shifts that each teach one new idea, then an endless career with stars to earn.</p></article>
+    <article><h3>Endless</h3><p>How many flights can you handle? Pick an upgrade each day and watch your airport grow.</p></article>
+    <article><h3>Puzzles</h3><p>24 tricky situations with par times. Find the clean solution.</p></article>
+    <article><h3>Daily &amp; Weekly</h3><p>The same skies for everyone, with a new twist, on Game Center leaderboards.</p></article>
+    <article><h3>Relaxed</h3><p>Every airport and every event, but you can't lose. Calm, Steady or Busy.</p></article>
+  </div>
+</section>
+
+<section class="pricing" id="price">
+  <div class="section-head">
+    <p class="eyebrow">Honest pricing</p>
+    <h2>Try it properly. Pay once if you love it.</h2>
+  </div>
+  <div class="plans">
+    <article>
+      <h3>Free</h3><p class="amount">$0</p>
+      <ul class="ticks"><li>3 airports</li><li>First 6 Logbook shifts</li><li>10 puzzles</li><li>Endless, Relaxed, Daily and Weekly</li></ul>
+    </article>
+    <article class="hl">
+      <h3>Full game</h3><p class="amount">$3.99 <small>one time</small></p>
+      <ul class="ticks"><li>All 9 airports</li><li>The whole Logbook and career</li><li>All 24 puzzles</li><li>Free updates</li></ul>
+    </article>
+  </div>
+  <p class="promise">No ads. No tracking. No energy timers. Plays offline.</p>
+</section>
+
+<footer>
+  <img src="img/icon.png" alt="" width="40" height="40">
+  <p><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:support@little-runways.com">support@little-runways.com</a></p>
+  <small>© 2026 KJC International Limited</small>
+</footer>
+
+</body>
+</html>
